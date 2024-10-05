@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/waternature.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 300px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+.time {
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+h1, p {
+    color: #f8f8f8;
+}
+button {
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
+    border: 2px solid rgb(215, 228, 215);
+    border-radius: 10px;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f8f8f8;
+}
